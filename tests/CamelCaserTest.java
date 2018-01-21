@@ -10,6 +10,26 @@ public class CamelCaserTest {
     }
 
     @Test
+    public void validTestWithNumbers() {
+        assertEquals("val1dT3stW1thNumb3r5", CamelCaser.camelCase("val1d t3st w1th numb3r5"));
+    }
+
+    @Test
+    public void upperCaseTest() {
+        assertEquals("testPassesForCapitalisation", CamelCaser.camelCase("TEST PASSES FOR CAPITALISATION"));
+    }
+
+    @Test
+    public void spaceAtBeginningTest() {
+        assertEquals("noWeirdSpaceAtStart", CamelCaser.camelCase("            no weird space at start"));
+    }
+
+    @Test
+    public void singleWordTest() {
+        assertEquals("single", CamelCaser.camelCase("siNGle"));
+    }
+
+    @Test
     public void invalidCharacterTestOne() {
         IllegalArgumentException e = new IllegalArgumentException();
         assertEquals(e, CamelCaser.camelCase("£ %^( $*)@"));
