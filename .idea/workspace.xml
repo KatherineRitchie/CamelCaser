@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10ee7b2e-2363-44e6-84de-92d0b9193aeb" name="Default" comment="All test cases written">
+    <list default="true" id="10ee7b2e-2363-44e6-84de-92d0b9193aeb" name="Default" comment="basic inputs passing test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/CamelCaser/CamelCaserTest.class" afterPath="$PROJECT_DIR$/out/test/CamelCaser/CamelCaserTest.class" />
-      <change beforePath="$PROJECT_DIR$/tests/CamelCaserTest.java" afterPath="$PROJECT_DIR$/tests/CamelCaserTest.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/CamelCaser/CamelCaser.class" afterPath="$PROJECT_DIR$/out/production/CamelCaser/CamelCaser.class" />
+      <change beforePath="$PROJECT_DIR$/src/CamelCaser.java" afterPath="$PROJECT_DIR$/src/CamelCaser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +19,11 @@
       <file leaf-file-name="CamelCaser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="70">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +41,8 @@
       <file leaf-file-name="CamelCaserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CamelCaserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="735">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
@@ -65,14 +67,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CamelCaser.java" />
         <option value="$PROJECT_DIR$/tests/CamelCaserTest.java" />
+        <option value="$PROJECT_DIR$/src/CamelCaser.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="23" />
+    <option name="x" value="25" />
+    <option name="y" value="26" />
     <option name="width" value="1020" />
     <option name="height" value="633" />
   </component>
@@ -152,6 +154,46 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="CamelCaserTest.handoutTestCamelCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CamelCaser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CamelCaserTest" />
+      <option name="METHOD_NAME" value="handoutTestCamelCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CamelCaserTest.invalidFormatTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CamelCaser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CamelCaserTest" />
+      <option name="METHOD_NAME" value="invalidFormatTestOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CamelCaserTest.nullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CamelCaser" />
@@ -160,6 +202,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CamelCaserTest" />
       <option name="METHOD_NAME" value="nullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CamelCaserTest.spaceAtBeginningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CamelCaser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CamelCaserTest" />
+      <option name="METHOD_NAME" value="spaceAtBeginningTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -232,14 +294,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android JUnit.CamelCaserTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.nullTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.handoutTestCamelCase" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.spaceAtBeginningTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.invalidFormatTestOne" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Android JUnit.CamelCaserTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.nullTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.invalidFormatTestOne" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.spaceAtBeginningTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.handoutTestCamelCase" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CamelCaserTest.nullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,54 +346,61 @@
       <option name="project" value="LOCAL" />
       <updated>1516553462433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All test cases written">
+      <created>1516554073860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516554073860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 12m 20s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 14h 53m 13s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 15m 41s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 14h 57m 55s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 15m 48s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 02m 06s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 30m 17s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 03m 36s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 41m 59s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 05m 07s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 49m 49s.xml">
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 06m 18s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest - 2018.01.21 at 10h 59m 43s.xml">
-      <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
+    <history-entry file="CamelCaserTest_handoutTestCamelCase - 2018.01.21 at 14h 38m 57s.xml">
+      <configuration name="CamelCaserTest.handoutTestCamelCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest_nullTest - 2018.01.21 at 10h 50m 06s.xml">
-      <configuration name="CamelCaserTest.nullTest" configurationId="JUnit" />
+    <history-entry file="CamelCaserTest_invalidFormatTestOne - 2018.01.21 at 14h 46m 17s.xml">
+      <configuration name="CamelCaserTest.invalidFormatTestOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest_nullTest - 2018.01.21 at 10h 58m 58s.xml">
-      <configuration name="CamelCaserTest.nullTest" configurationId="JUnit" />
+    <history-entry file="CamelCaserTest_spaceAtBeginningTest - 2018.01.21 at 14h 39m 06s.xml">
+      <configuration name="CamelCaserTest.spaceAtBeginningTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest_nullTest - 2018.01.21 at 10h 59m 19s.xml">
-      <configuration name="CamelCaserTest.nullTest" configurationId="JUnit" />
+    <history-entry file="CamelCaserTest_spaceAtBeginningTest - 2018.01.21 at 14h 44m 50s.xml">
+      <configuration name="CamelCaserTest.spaceAtBeginningTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="23" width="1020" height="633" extended-state="0" />
+    <frame x="25" y="26" width="1020" height="633" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4795009" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45632797" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21746881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55793226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -352,10 +427,13 @@
     <MESSAGE value="Configurations setup" />
     <MESSAGE value="Exception test cases written" />
     <MESSAGE value="All test cases written" />
-    <option name="LAST_COMMIT_MESSAGE" value="All test cases written" />
+    <MESSAGE value="basic inputs passing test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic inputs passing test cases" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -375,20 +453,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/test/CamelCaser/CamelCaserTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CamelCaserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
