@@ -20,7 +20,7 @@ public class CamelCaser {
             System.out.println(inputStrArr[i]);
         }
         for (int i = 0; i < inputStrArr.length; i++) {
-            if (inputStrArr[i] == "")) {
+            if (!inputStrArr[i].equals("")) {
                 if (!camelCasedOutput.equals("")) {
                     String firstCharString = inputStrArr[i].substring(0,1);
                     inputStrArr[i] = inputStrArr[i].replaceFirst(firstCharString, firstCharString.toUpperCase());

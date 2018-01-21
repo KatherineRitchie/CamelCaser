@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10ee7b2e-2363-44e6-84de-92d0b9193aeb" name="Default" comment="basic inputs passing test cases">
+    <list default="true" id="10ee7b2e-2363-44e6-84de-92d0b9193aeb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/CamelCaser/CamelCaser.class" afterPath="$PROJECT_DIR$/out/production/CamelCaser/CamelCaser.class" />
       <change beforePath="$PROJECT_DIR$/src/CamelCaser.java" afterPath="$PROJECT_DIR$/src/CamelCaser.java" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="CamelCaser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="76">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516554073860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="basic inputs passing test cases">
+      <created>1516568825703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516568825703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -375,17 +382,17 @@
     <history-entry file="CamelCaserTest - 2018.01.21 at 15h 06m 18s.xml">
       <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="CamelCaserTest_handoutTestCamelCase - 2018.01.21 at 14h 38m 57s.xml">
-      <configuration name="CamelCaserTest.handoutTestCamelCase" configurationId="JUnit" />
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 07m 23s.xml">
+      <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 07m 55s.xml">
+      <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="CamelCaserTest - 2018.01.21 at 15h 08m 11s.xml">
+      <configuration name="CamelCaserTest" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="CamelCaserTest_invalidFormatTestOne - 2018.01.21 at 14h 46m 17s.xml">
       <configuration name="CamelCaserTest.invalidFormatTestOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CamelCaserTest_spaceAtBeginningTest - 2018.01.21 at 14h 39m 06s.xml">
-      <configuration name="CamelCaserTest.spaceAtBeginningTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CamelCaserTest_spaceAtBeginningTest - 2018.01.21 at 14h 44m 50s.xml">
-      <configuration name="CamelCaserTest.spaceAtBeginningTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -400,7 +407,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55793226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55793226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -463,21 +470,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ErrorConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CamelCaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
