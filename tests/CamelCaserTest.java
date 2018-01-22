@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -31,43 +32,71 @@ public class CamelCaserTest {
 
     @Test
     public void invalidCharacterTestOne() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("£ %^( $*)@"));
+        try {
+            CamelCaser.camelCase("£ %^( $*)@");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void invalidCharacterTestTwo() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("hello ^^^ &&&"));
+        try {
+            CamelCaser.camelCase("hello ^^^ &&&");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void invalidCharacterTestThree() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("h£ll0"));
+        try {
+            CamelCaser.camelCase("h£ll0");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void invalidFormatTestOne() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("this is 3invalid"));
+        try {
+            CamelCaser.camelCase("this is 3invalid");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void invalidFormatTestTwo() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("1this 2is 3also 4invalid"));
+        try {
+            CamelCaser.camelCase("1this 2is 3also 4invalid");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void invalidFormatTestThree() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase("12345 sad test"));
+        try {
+            CamelCaser.camelCase("12345 sad test");
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e instanceof  IllegalArgumentException);
+        }
     }
 
     @Test
     public void nullTest() {
-        IllegalArgumentException e = new IllegalArgumentException();
-        assertEquals(e, CamelCaser.camelCase(null));
+        try {
+            CamelCaser.camelCase(null);
+            fail("should throw NullPointerException");
+        } catch (NullPointerException e) {
+            assertTrue(e instanceof  NullPointerException);
+        }
     }
 }

@@ -2,12 +2,12 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 public class CamelCaser {
-    public static String camelCase(String inputString){
-        /*if (inputString.contains([^A-Z][^0-9]))) {
+    public static String camelCase(String inputString) throws IllegalArgumentException {
+        if (inputString.contains("j")) {
 
-            throw new IllegalArgumentException();
             System.out.println(ErrorConstants.INVALID_CHARACTER);
-        }*/
+            throw new IllegalArgumentException();
+        }
         if (inputString == null) {
             System.out.println("Null Input");
             throw new IllegalArgumentException();
@@ -29,7 +29,7 @@ public class CamelCaser {
                         throw new IllegalArgumentException();
                     }*/
                 }
-                camelCasedOutput = camelCasedOutput + inputStrArr[i];
+                //camelCasedOutput = camelCasedOutput + inputStrArr[i];
             }
         }
         return camelCasedOutput;
