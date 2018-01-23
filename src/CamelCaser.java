@@ -1,9 +1,17 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+import java.util.regex.*;
 
 public class CamelCaser {
+
+    /**
+     * Camel Cases a valid input
+     * @param inputString String
+     * @return String camelCasedOutput
+     * @throws IllegalArgumentException
+     */
     public static String camelCase(String inputString) throws IllegalArgumentException {
-        if (inputString.contains("j")) {
+        if (!inputString.matches("[a-zA-Z0-9]+")) {
 
             System.out.println(ErrorConstants.INVALID_CHARACTER);
             throw new IllegalArgumentException();
@@ -24,12 +32,12 @@ public class CamelCaser {
                 if (!camelCasedOutput.equals("")) {
                     String firstCharString = inputStrArr[i].substring(0,1);
                     inputStrArr[i] = inputStrArr[i].replaceFirst(firstCharString, firstCharString.toUpperCase());
-                    /*if (firstCharString.charAt(0) == ([0-9])) {
+                    if (firstCharString.matches("[0-9]")) {
                         System.out.println(ErrorConstants.INVALID_FORMAT);
                         throw new IllegalArgumentException();
-                    }*/
+                    }
                 }
-                //camelCasedOutput = camelCasedOutput + inputStrArr[i];
+                camelCasedOutput = camelCasedOutput + inputStrArr[i];
             }
         }
         return camelCasedOutput;
