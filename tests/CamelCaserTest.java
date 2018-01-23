@@ -36,7 +36,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("£ %^( $*)@");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -46,7 +46,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("hello ^^^ &&&");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -56,7 +56,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("h£ll0");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -66,7 +66,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("this is 3invalid");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -76,7 +76,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("1this 2is 3also 4invalid");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -86,7 +86,7 @@ public class CamelCaserTest {
             CamelCaser.camelCase("12345 sad test");
             fail("should throw IllegalArgumentException");
         } catch (IllegalArgumentException e) {
-            assertTrue(e instanceof  IllegalArgumentException);
+            assertTrue(true);
         }
     }
 
@@ -94,9 +94,10 @@ public class CamelCaserTest {
     public void nullTest() {
         try {
             CamelCaser.camelCase(null);
-            fail("should throw NullPointerException");
-        } catch (NullPointerException e) {
-            assertTrue(e instanceof  NullPointerException);
+            fail("should throw IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertTrue(true);
         }
     }
+
 }
